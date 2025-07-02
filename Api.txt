@@ -1,0 +1,12 @@
+App name
+MyApp_Wixcom_Ltd
+
+Client ID
+AWEB22R6Fm6TzByX4HBGUqT9QF452twDPd8RULtfkOfsev_DkYF0CMt5ce40WFhyJqC_J-ATmjp59Sy8
+
+
+https://htmlminifier.com/
+
+https://cssminifier.com/
+
+https://javascript-minifier.com/
