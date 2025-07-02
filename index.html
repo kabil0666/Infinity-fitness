@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infinityfitness.online</title>
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=AX2MiJnpmgS_lmtxV0Bd7_9qMWYzTnvIGGHDf1mElAFFZCfdsiAd4-EI2Ju1c3-yZ86wTeIYXEu5U2Ls&currency=USD"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav_content">
+            <h1>Infinity <a class="animation">Fitness</a></h1>
+            <a class="nav_link" href="index.html">Home</a>
+            <a class="nav_link"
+                href="https://www.facebook.com/profile.php?id=61550268368008&mibextid=ZbWKwL/">Facebook</a>
+            <a class="nav_link" href="https://www.instagram.com/workout_animation?igsh=YzAwZjE1ZTI0Zg==/">Instagram</a>
+            <a class="nav_link" href="https://wa.me/+919053702950?text=Hello,%20I%20need%20more%20details.">WhatsApp</a>
+        </div>
+    </nav>
+    <div class="overall">
+        <div class="main">
+            <p class="intro">
+                <a class="animation">Welcome!</a> <br>Thank you for visiting our website. We’re proud to offer a wide
+                range of creative and digital services tailored to your needs. Here, you'll find all types of content
+                related to fitness commonly seen on social media — and even more! If you have specific requirements or
+                need something unique, feel free to contact us directly. We’re here to deliver exactly what you’re
+                looking for.
+            </p>
+            <div class="summary">
+                <h2>Here’s a quick overview <a class="animation">what we offer:</a></h2>
+                <div class="video-list">
+                    <h4> <span> &#x27A5;</span> White background videos</h4>
+                    <h4> <span> &#x27A5;</span> Green background videos</h4>
+                    <h4> <span> &#x27A5;</span> Real human exercises videos</h4>
+                    <h4> <span> &#x27A5;</span> 4D character videos</h4>
+                    <h4> <span> &#x27A5;</span> 4K quality videos</h4>
+                    <h4> <span> &#x27A5;</span> White background GIF</h4>
+                    <h4> <span> &#x27A5;</span> Yoga videos with all existing poses</h4>
+                    <h4> <span> &#x27A5;</span> women most popular new character</h4>
+                    <h4> <span> &#x27A5;</span> editing service</h4>
+                    <h4> <span> &#x27A5;</span> custom character and exercises</h4>
+                    <h4> <span> &#x27A5;</span> custom animation services</h4>
+                    <h4> <span> &#x27A5;</span> apps and website making service</h4>
+                    <h4> <span> &#x27A5;</span> Social Media growing service</h4>
+                </div>
+            </div>
+            <div class="column">
+                <video src="first_service.mp4" poster="white_background.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> white background type 2000 videos</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <button class="buy" onclick="showPayPalButton('white')">Buy Now $100</button>
+                <div id="paypal-button-container-white" style="display:none;"></div>
+            </div>
+            <div class="column">
+                <video src="second_service.mp4" poster="green_background.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> green background type 2000 videos</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <div class="linkbuy">
+                    <a class="buy" onclick="toggleButtons('greenContainer'); return false;">Buy Now</a>
+                </div>
+                <div id="greenContainer" style="display: none;">
+                    <div class="buttonContainer1">
+                        <div class="buttonContainerSub1">
+                            <h4>Basic Package</h4>
+                            <p id="buttonText1"><span> &#x27A5;</span>1000 videos <br><span> &#x27A5;</span> with
+                                licence</p>
+                        </div>
+                        <div class="buttonContainerSub2">
+                            <h4>Advance Package</h4>
+                            <p id="buttonText2"><span> &#x27A5;</span> 2000 videos <br><span> &#x27A5;</span> with
+                                licence</p>
+                        </div>
+                    </div>
+                    <div class="buttonContainer2">
+                        <button id="greenButton1" onclick="showPayPalButton('green_1')">Buy Now $150</button>
+                        <button id="greenButton2" onclick="showPayPalButton('green_2')">Buy Now $200</button>
+                    </div>
+                    <div id="paypal-button-container-green_1" style="display:none;"></div>
+                    <div id="paypal-button-container-green_2" style="display:none;"></div>
+                </div>
+            </div>
+            <div class="column">
+                <video src="third_service.mp4" poster="real_human.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> real human exercises videos</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <div class="linkbuy">
+                    <a class="buy" onclick="toggleButtons('humanContainer'); return false;">Buy Now</a>
+                </div>
+                <div id="humanContainer" style="display: none;">
+                    <div class="buttonContainer1">
+                        <div class="buttonContainerSub1">
+                            <h4>Basic Package</h4>
+                            <p id="buttonText1"><span> &#x27A5;</span>600 videos <br><span> &#x27A5;</span> with
+                                licence</p>
+                        </div>
+                        <div class="buttonContainerSub2">
+                            <h4>Advance Package</h4>
+                            <p id="buttonText2"><span> &#x27A5;</span> 1200 videos <br><span> &#x27A5;</span> with
+                                licence</p>
+                        </div>
+                    </div>
+                    <div class="buttonContainer2">
+                        <button id="humanButton1" onclick="showPayPalButton('human_1')">Buy Now $150</button>
+                        <button id="humanButton2" onclick="showPayPalButton('human_2')">Buy Now $200</button>
+                    </div>
+                    <div id="paypal-button-container-human_1" style="display:none;"></div>
+                    <div id="paypal-button-container-human_2" style="display:none;"></div>
+                </div>
+            </div>
+            <div class="column">
+                <video src="forth_service.mp4" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> 4D character videos</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <div class="linkbuy">
+                    <a class="buy" onclick="toggleButtons('characterContainer'); return false;">Buy Now</a>
+                </div>
+                <div id="characterContainer" style="display: none;">
+                    <div class="buttonContainer1">
+                        <div class="buttonContainerSub1">
+                            <h4>Basic Package</h4>
+                            <p id="buttonText1"><span> &#x27A5;</span>1000 videos <br><span> &#x27A5;</span> with
+                                licence</p>
+                        </div>
+                        <div class="buttonContainerSub2">
+                            <h4>Advance Package</h4>
+                            <p id="buttonText2"><span> &#x27A5;</span> 2000 videos <br><span> &#x27A5;</span> with
+                                licence</p>
+                        </div>
+                    </div>
+                    <div class="buttonContainer2">
+                        <button id="characterButton1" onclick="showPayPalButton('character_1')">Buy Now $150</button>
+                        <button id="characterButton2" onclick="showPayPalButton('character_2')">Buy Now $200</button>
+                    </div>
+                    <div id="paypal-button-container-character_1" style="display:none;"></div>
+                    <div id="paypal-button-container-character_2" style="display:none;"></div>
+                </div>
+            </div>
+            <div class="column">
+                <video src="fifth_service.mp4" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> 4k quality different character videos</p>
+                <p><span class="span_1">&#10004;</span> 1200 videos</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <button class="buy" onclick="showPayPalButton('quality')">Buy Now $100</button>
+                <div id="paypal-button-container-quality" style="display:none;"></div>
+            </div>
+            <div class="column">
+                <video src="sixth_service.mp4" poster="white_gif.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> white background GIF</p>
+                <p><span class="span_1">&#10004;</span> 1500 GIF</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <button class="buy" onclick="showPayPalButton('whiteGif')">Buy Now $80</button>
+                <div id="paypal-button-container-whiteGif" style="display:none;"></div>
+            </div>
+            <div class="column">
+                <video src="seventh_service.mp4" poster="yoga.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> Yoga videos</p>
+                <p><span class="span_1">&#10004;</span> all existing pose</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <button class="buy" onclick="showPayPalButton('yoga')">Buy Now $100</button>
+                <div id="paypal-button-container-yoga" style="display:none;"></div>
+            </div>
+            <div class="column">
+                <video src="eighth_service.mp4" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> women most popular character</p>
+                <p><span class="span_1">&#10004;</span> all home workout</p>
+                <p><span class="span_1">&#10004;</span> with licence</p>
+                <button class="buy" onclick="showPayPalButton('women')">Buy Now $200</button>
+                <div id="paypal-button-container-women" style="display:none;"></div>
+            </div>
+            <div class="column">
+                <video src="ninth_service.mp4" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> editing service</p>
+                <button class="buy" style="margin-bottom:20px;"
+                    onclick="window.location.href='//wa.me/+919053702950?text=Hello, I want to know more about editing service.';">contact
+                    us</button>
+            </div>
+            <div class="column">
+                <video src="tenth_service.mp4" poster="custom_character.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> custom character and exercises</p>
+                <button class="buy" style="margin-bottom:20px;"
+                    onclick="window.location.href='//wa.me/+919053702950?text=Hello, I want to know more about custom character service.';">contact
+                    us</button>
+            </div>
+            <div class="column">
+                <video src="eleventh_service.mp4" poster="animation.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> custom animation service</p>
+                <button class="buy" style="margin-bottom:20px;"
+                    onclick="window.location.href='//wa.me/+919053702950?text=Hello, I want to know more about custom animation service.';">contact
+                    us</button>
+            </div>
+            <div class="column">
+                <video src="tweleth_service.mp4" poster="apps_website.jpeg" class="vid" loop muted controls> </video>
+                <p><span class="span_1">&#10004;</span> apps and website making service</p>
+                <button class="buy" style="margin-bottom:20px;"
+                    onclick="window.location.href='//wa.me/+919053702950?text=Hello, I want to know more apps and website making sevice.';">contact
+                    us</button>
+            </div>
+            <div class="column">
+                <video src="thirteenth_service.mp4" class="vid" loop muted controls>
+                </video>
+                <p><span class="span_1">&#10004;</span> social media growing service</p>
+                <button class="buy" style="margin-bottom:20px;"
+                    onclick="window.location.href='//wa.me/+919053702950?text=Hello, I want to know more about social media growing service.';">contact
+                    us</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h5 class="animation">Offers</h5>
+        <ol>
+            <li>If you buy two pakages then there is <a class="animation"> 50$</a> discount.</li>
+            <li>If you are repetitive customer then there is <a class="animation"> 30$</a> discount.</li>
+        </ol>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <footer>
+        <div class="footer">
+            <div class="links">
+                <h5>Quick Links</h5>
+                <div class="link_a">
+                    <a href="index.html">Home</a>
+                    <a href="https://www.facebook.com/profile.php?id=61550268368008&mibextid=ZbWKwL/">Facebook</a>
+                    <a href="https://www.instagram.com/workout_animation?igsh=YzAwZjE1ZTI0Zg==/">Instagram</a>
+                    <a href="https://wa.me/+919053702950?text=Hello,%20I%20need%20more%20details.">WhatsApp</a>
+                </div>
+            </div>
+            <div class="contact">
+                <h5>Contact Us</h5>
+                <div class="contact_a">
+                    <a>Email: exercisesanime@gmail.com</a>
+                    <a>Phone: +91-9053702950</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <small>&copy; 2025 Infinity Fitness. All rights reserved.</small>
+        </div>
+    </footer>
+</body>
+<script>
+    const videos = document.querySelectorAll('.vid');
+
+    videos.forEach((video) => {
+        video.addEventListener('play', () => {
+            videos.forEach((v) => {
+                if (v !== video) {
+                    v.pause();
+                    v.currentTime = 0;
+                    v.load();
+                }
+            });
+        });
+    });
+
+    // All PayPal service configurations
+    const paypalServices = {
+        white: 100,
+        green_1: 150,
+        green_2: 200,
+        human_1: 150,
+        human_2: 200,
+        character_1: 150,
+        character_2: 200,
+        quality: 100,
+        whiteGif: 80,
+        yoga: 100,
+        women: 200
+    };
+
+    let renderedButtons = {};
+
+    // Auto-hide others and show the selected PayPal button
+    function showPayPalButton(type) {
+        // Hide all PayPal containers
+        Object.keys(paypalServices).forEach(key => {
+            const container = document.getElementById(`paypal-button-container-${key}`);
+            if (container) container.style.display = 'none';
+        });
+
+        // Show selected container
+        const selectedContainer = document.getElementById(`paypal-button-container-${type}`);
+        if (!selectedContainer) {
+            console.error(`Missing container for: ${type}`);
+            return;
+        }
+
+        selectedContainer.style.display = 'block';
+
+        // Render PayPal button only once
+        if (!renderedButtons[type]) {
+            renderPayPalButton(`paypal-button-container-${type}`, paypalServices[type]);
+            renderedButtons[type] = true;
+        }
+    }
+
+    function renderPayPalButton(containerId, amount) {
+        paypal.Buttons({
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: { value: amount.toFixed(2) }
+                    }]
+                });
+            },
+            onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                });
+            }
+        }).render(`#${containerId}`);
+    }
+
+    // Toggle dropdown visibility for package selection (e.g. green/human/character)
+    function toggleButtons(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.style.display = container.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Expose toggleButtons and showPayPalButton globally
+    window.toggleButtons = toggleButtons;
+    window.showPayPalButton = showPayPalButton;
+</script>
+
+
+</html>

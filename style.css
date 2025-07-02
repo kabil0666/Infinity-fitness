@@ -1,0 +1,342 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    line-height: 1.3;
+    transition-duration: 0.25s;
+    font-weight: 400;
+}
+
+body {
+    padding: 0.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, purple, rgb(61, 20, 100));
+    color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav_content {
+    display: flex;
+}
+
+.nav_content h1 {
+    font-size: 2rem;
+    padding: 0 0 0 2.5rem;
+    margin: -5px 10px 0 -4.5vh;
+}
+
+.nav_content .animation {
+    font-size: 2rem;
+}
+
+.nav_link {
+    font-size: 1rem;
+    margin: 20px 8px 0 0;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+    font-size: 1.1rem;
+    ;
+    transform: translateY(1px);
+    color: rgb(243, 182, 14);
+}
+
+.animation {
+    color: rgb(243, 182, 14);
+}
+
+.intro {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.intro .animation {
+    font-size: 1.7rem;
+}
+
+.summary h2 {
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+}
+
+.video-list h4 {
+    margin: 0.3rem 15px;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.video-list span {
+    margin-right: 10px;
+}
+
+.column p {
+    margin: 0 0 0.30rem 0;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.vid {
+    width: 25rem;
+    height: 15rem;
+    display: block;
+    margin: 30px 0 0 -1px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.4), -6px -6px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+span {
+    color: rgb(243, 182, 14);
+}
+
+.span_1 {
+    background-color: rgb(165, 126, 18);
+    color: white;
+    padding: 1.5px;
+    border: solid rgb(165, 126, 18);
+    border-radius: 50px;
+    border-width: 3.5px;
+    border-bottom-width: .1px;
+    border-top-width: .1px;
+    border-right-width: 4px;
+    border-left-width: 4px;
+    border-spacing: 6px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.linkbuy {
+    margin: 20px 0 0 0;
+}
+
+.buy {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 130px;
+    border: none;
+    box-shadow: 3px 8px 10px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom right, rgb(243, 182, 14), purple);
+    color: white;
+    text-transform: capitalize;
+}
+
+.buy:hover {
+    width: auto;
+    cursor: pointer;
+    color: whitesmoke;
+    box-shadow: 3px 8px 10px 0px rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    ;
+}
+
+#greenContainer,
+#humanContainer,
+#characterContainer {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonContainer1 {
+    display: flex;
+    margin-top: -30px;
+}
+
+.buttonContainerSub1,
+.buttonContainerSub2 {
+    width: 200px;
+    margin: 0 0 0 5px;
+}
+
+.buttonContainerSub1 h4,
+.buttonContainerSub2 h4 {
+    font-size: 23px;
+    margin-left: -20px;
+}
+
+#buttonText1,
+#buttonText2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: -25px;
+    margin-left: -10px;
+    line-height: 1.2;
+}
+
+.buttonContainer2 {
+    display: flex;
+    margin: -10px 0;
+}
+
+#greenButton1,
+#humanButton1,
+#characterButton1 {
+    margin: 0 65px 0 -10px;
+    padding: 8px 15px;
+    font-size: 17px;
+    border-radius: 130px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom right, rgb(243, 182, 14), purple);
+    color: white;
+    text-transform: capitalize;
+}
+
+
+#greenButton2,
+#humanButton2,
+#characterButton2 {
+    padding: 8px 15px;
+    font-size: 17px;
+    border-radius: 130px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom right, rgb(243, 182, 14), purple);
+    color: white;
+    text-transform: capitalize;
+}
+
+#greenButton1:hover,
+#greenButton2:hover,
+#humanButton1:hover,
+#humanButton2:hover,
+#characterButton1:hover,
+#characterButton2:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+#paypal-button-container-white,
+#paypal-button-container-quality,
+#paypal-button-container-whiteGif,
+#paypal-button-container-yoga,
+#paypal-button-container-women {
+    width: 100px;
+    margin: 10px 5px;
+}
+
+#paypal-button-container-white :hover,
+#paypal-button-container-quality :hover,
+#paypal-button-container-whiteGif :hover,
+#paypal-button-container-yoga :hover,
+#paypal-button-container-women :hover {
+    min-width: 220px;
+    transition-duration: 0.2s;
+}
+
+#paypal-button-container-green_1,
+#paypal-button-container-character_1,
+#paypal-button-container-human_1 {
+    max-width: 100px;
+    margin: 20px -20px -30px;
+}
+
+#paypal-button-container-green_2,
+#paypal-button-container-character_2,
+#paypal-button-container-human_2 {
+    max-width: 100px;
+    margin: 20px 180px -30px;
+}
+
+.row h5 {
+    font-size: 25px;
+    margin: -1px 0 -10px 0;
+}
+
+.row ol li {
+    font-size: 18px;
+    margin: 0 0 0 -10px;
+    line-height: 1.8;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.my-float {
+    margin-top: 13px;
+}
+
+.float:hover {
+    color: #25d366;
+    background-color: white;
+    transform: rotate(360deg);
+}
+
+.footer {
+    display: flex;
+    color: white;
+    margin: -40px 0 0 0;
+}
+
+.links {
+    width: 200px;
+    display: grid;
+}
+
+.links h5 {
+    font-size: 25px;
+}
+
+.link_a {
+    margin: -35px 0 10px 10px;
+    display: grid;
+}
+
+.link_a a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.link_a a:hover {
+    color: #ffc107;
+    transition: 0.4s;
+}
+
+.contact {
+    width: 300px;
+    display: grid;
+}
+
+.contact h5 {
+    font-size: 25px;
+    margin: 43px 0 -25px 15px;
+}
+
+.contact_a {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
